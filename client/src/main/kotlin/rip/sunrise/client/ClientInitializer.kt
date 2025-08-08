@@ -17,16 +17,16 @@ import io.netty.handler.timeout.ReadTimeoutHandler
 import rip.sunrise.packets.serialization.ObfuscatedClassResolver
 import rip.sunrise.packets.serialization.ObfuscatedEncoder
 
-const val USERNAME_ENV = "USERNAME"
-const val PASSWORD_ENV = "PASSWORD"
+const val USERNAME_ENV = "owned420@tupmail.com"
+const val PASSWORD_ENV = "donttrylol123!"
 
 fun main() {
-    val username = System.getenv(USERNAME_ENV)
+    val username = "bigfatgamer@tupmail.com"
     if (username == null || username.isBlank()) {
         error("No username set!")
     }
 
-    val password = System.getenv(PASSWORD_ENV)
+    val password = "donttrylol123!"
     if (password == null || password.isBlank()) {
         error("No password set!")
     }
